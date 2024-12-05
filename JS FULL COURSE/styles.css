@@ -1,0 +1,29 @@
+#labelCount {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 4.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
